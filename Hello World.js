@@ -1,2 +1,2 @@
-console.log("Hello World"
-"o sol já nasceu lá na fazendinha")
+console.log("Hello World")
+console.lof("o sol já nasceu lá na fazendinha")
