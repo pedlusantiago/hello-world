@@ -24,6 +24,7 @@ apresentar(pessoa1)
 
 const pessoa2 = {
     nome: 'Pedro',
+    
     idade: 24,
     peso: 95,
     profissao: "estudante"
