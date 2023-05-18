@@ -5,8 +5,16 @@ const opcoes = ["eu", "voce", "ele", "nós"];
 const resultado = opcoes.slice(1, 3);
 console.log(resultado);
 
-4
 
-4////////////////////////////////////////////////////////////////////////
 
- 
+////////////////////////////////////////////////////////////////////////
+function filtrar80(dados) {
+    const startIndex = Math.round(dados.length * 0.1);
+    const endIndex = Math.round(dados.length * 0.9);
+    const filtrado = dados.slice(startIndex, endIndex);
+
+    console.log(filtrado);
+};
+const dados = [0, 1, 2, 3, 4, 5, 6, 7, 8];
+
+filtrar80(dados);
